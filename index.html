@@ -147,22 +147,20 @@
 
 
         <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3">
-                <h3>Our Lipsmacking Culinary Creations</h3>
-            </div>
             <div class="col col-sm order-sm-first col-md">
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center"
-                            src="img/uthappizza.png" alt="Uthappizza">
+                            src="img/img4.png" alt="Kolkata" style="width: 205px; height: 155px;">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza
-                            <span class="badge badge-danger">HOT</span>
-                            <span class="badge badge-pill badge-secondary">Rs. 145</span>
+                        <h2 class="mt-0">Amphan-hit Kolkata airport will operate only from 28 May with 20 flights per day
+                            <span class="badge badge-danger">Latest</span>
+                            <span class="badge badge-pill badge-secondary">24th May</span>
                         </h2>
-                        <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
-                            Italian pizza, topped with Cerignola olives, ripe vine
-                            cherry tomatoes, Vidalia onion, Guntur chillies and
-                            Buffalo Paneer.</p>
+                        <p class="d-none d-sm-block">As West Bengal government is involved in restoration work after Cyclone Amphan, 
+                            the state government had requested Ministry of Civil Aviation to defer resumption of flights from Kolkata airport.<span id="dots">...</span><span id="more">
+                            Chief Minister Mamata Banerjee on Saturday said West Bengal will urge the Centre to postpone resuming domestic flight 
+                            services at Kolkata and Bagdogra airports by a few days as the state will be busy with managing the damage caused by Cyclone Amphan.</span></p>
+                            <button onclick="myFunction()" id="myBtn" class="btn btn-info">Read more</button>
                     </div>
                 </div>
             </div>
@@ -262,6 +260,24 @@
                     $("#carouselButton").children("span").addClass('fa-pause');                    
                 }
             });
+            
+                    
+        function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+  }
+}
+
     </script>
 </body>
 
