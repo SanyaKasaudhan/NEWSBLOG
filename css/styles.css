@@ -10,14 +10,15 @@
 }
 
 .footer{
-    background-color: #D1C4E9;
+    background-color:#3d0538;
     margin: 0px;
+    color: #ddd;
     padding: 20px 0px 20px 0px;
 }
 .jumbotron{
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background: #9575cd;
+    background: #3d0538;
     color: floralwhite;
 }
 .address{
@@ -31,7 +32,7 @@ body{
 }
 
 .navbar-dark {
-     background-color: #512DA8;
+     background-color: rgb(145, 163, 29);
 }
 .tab-content {
     border-left: 1px solid #ddd;
@@ -40,7 +41,7 @@ body{
     padding: 10px;
 }
 .carousel {
-    background:rgba(67, 112, 163, 0.486);
+    background:rgba(172, 19, 146, 0.486);
     
 }
 
